@@ -1,0 +1,180 @@
+.amazon-search table.outer-table
+{
+    background-color: white;
+    border-collapse: collapse;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.amazon-search .outer-table td.left-cell
+{
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 4px 8px;
+}
+
+.amazon-search .outer-table td.right-cell
+{
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 4px 8px;
+}
+
+.amazon-search table.outer-table td.top-row
+{
+    background-color: #F0F0F0;
+    border-top: 4px solid #F59C38;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.amazon-search table.inner-table
+{
+    border-collapse: collapse;
+    margin: 4px;
+}
+
+.amazon-search table.inner-table td.left-cell
+{
+    width: 100%;
+    border: 0;
+    padding: 0 0 0 8px;
+}
+
+.amazon-search table.inner-table td.right-cell
+{
+    border: 0;
+    padding: 0 8px 0 0;
+}
+
+.amazon-search .input-border
+{
+    background: white;
+    border: 1px solid lightgray;
+    border-right: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.amazon-search table.inner-table label
+{
+    margin: 0;
+    padding: 0;
+}
+
+.amazon-search table.inner-table input
+{
+    font-size: 10pt;
+    font-family: Arial, sans-serif;
+    border: 0;
+    width: 100%;
+    height: 38px;
+    margin: 0;
+    padding: 0;
+}
+
+.amazon-search table.inner-table input:focus
+{
+    outline: none;
+}
+
+.amazon-search table.inner-table button
+{
+    background-color: gray;
+    color: white;
+    border: 1px solid gray;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 8px 16px;
+    font-weight: bold;
+    text-transform: unset;
+    margin: 0;
+    line-height: unset;
+    height: 40px;
+}
+
+.amazon-search .product-link
+{
+    text-decoration: none;
+}
+
+.amazon-search .product-title
+{
+    font-size: 10pt;
+    font-family: Arial, sans-serif;
+    color: #4B5791;
+    font-weight: bold;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.amazon-search .product-price
+{
+    font-size: 10pt;
+    font-family: Arial, sans-serif;
+    color: #8A1629;
+    font-weight: bold;
+}
+
+.amazon-search .product-review-count
+{
+    font-size: 8pt;
+    font-family: Arial, sans-serif;
+    color: #4B5791;
+}
+
+.amazon-search .stars
+{
+    display: inline-block;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.amazon-search .star
+{
+    font-size: x-large;
+    width: 20px;
+    display: inline-block;
+    color: lightgray;
+}
+
+.amazon-search .star:last-child
+{
+    margin-right: 0;
+}
+
+.amazon-search .star:before
+{
+    content: '\2605';
+}
+
+.amazon-search .star.on
+{
+    color: #FFBC07;
+}
+
+.amazon-search .star.half:after
+{
+    content: '\2605';
+    color: #FFBC07;
+    position: absolute;
+    margin-left: -20px;
+    width: 10px;
+    overflow: hidden;
+}
+
+.amazon-search .footer
+{
+    font-size: 10pt;
+    font-family: Arial, sans-serif;
+    color: gray;
+    text-align: center;
+    padding-top: 0;
+}
